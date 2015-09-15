@@ -103,9 +103,7 @@ class ZoomAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioning
             transitionViewFinalFrame = self.referenceSlideshowView.currentSlideshowItem!.imageView.frame
         }
         
-        if UIApplication.sharedApplication().statusBarHidden && !toViewController.prefersStatusBarHidden() && toViewController.isKindOfClass(UINavigationController) {
-            transitionViewFinalFrame = CGRectOffset(transitionViewFinalFrame, 0, 20)
-        }
+        transitionViewFinalFrame = CGRectOffset(transitionViewFinalFrame, 0, 20)
         let transitionView: UIImageView = UIImageView(image: fromViewController.slideshow!.currentSlideshowItem!.imageView.image)
         transitionView.contentMode = UIViewContentMode.ScaleAspectFill
         transitionView.clipsToBounds = true
