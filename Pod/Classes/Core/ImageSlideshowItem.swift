@@ -40,7 +40,7 @@ public class ImageSlideshowItem: UIScrollView, UIScrollViewDelegate {
         imageView.addGestureRecognizer(tap)
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
@@ -48,7 +48,7 @@ public class ImageSlideshowItem: UIScrollView, UIScrollViewDelegate {
         imageView.removeObserver(self, forKeyPath: "image", context: &myContext)
     }
     
-    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [NSObject : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         if context == &myContext {
             if let newValue = change?[NSKeyValueChangeNewKey] as? UIImage {
                 self.maximumZoomScale = calculateMaximumScale()

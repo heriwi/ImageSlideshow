@@ -104,7 +104,7 @@ public class ImageSlideshow: UIView, UIScrollViewDelegate {
         self.init(frame: CGRectZero)
     }
     
-    required public init?(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initialize()
     }
