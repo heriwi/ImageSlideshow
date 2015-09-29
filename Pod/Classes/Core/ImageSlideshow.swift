@@ -310,6 +310,8 @@ public class ImageSlideshow: UIView, UIScrollViewDelegate {
         } else {
             currentPage = page
         }
+        
+        self.pageControl.updateDots()
     }
     
     // MARK: UIScrollViewDelegate
