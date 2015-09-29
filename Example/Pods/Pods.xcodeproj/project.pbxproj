@@ -17,6 +17,8 @@
 		5851EE97C909F80580E4ADA7913C1F3F /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2EADD19AB9004FB66252334895B943 /* UIImage+AspectFit.swift */; };
 		8E02AD04C35514F30C837D04348A75F1 /* cancel30.png in Resources */ = {isa = PBXBuildFile; fileRef = E77B6889F3C1046FA296AD5FC7752A8F /* cancel30.png */; };
 		C6D084EF6E1E76DA1F40BCB685BD321D /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746108132AD50FFFD338D26A87C77476 /* ImageSlideshow.swift */; };
+		C7AC177E1BBAAF8200F61B32 /* icon-slide-active-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC177D1BBAAF8200F61B32 /* icon-slide-active-white.png */; };
+		C7AC17801BBAB06000F61B32 /* icon-slide-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC177F1BBAB06000F61B32 /* icon-slide-white.png */; };
 		CCE09A16F78A469C2CFD3854C8A7638F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93C32CE38E0838058D789B4C5D43494 /* Foundation.framework */; };
 		FA416A9B9CF5A8DC593AA27190235EFA /* Pods-ImageSlideshow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2820B2CEE6835C31258F6938E38C5AF8 /* Pods-ImageSlideshow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAA35A0B70849AC1E41C864E3B22EA4E /* FullScreenSlideshowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1038EA1E7CB96DB5319EE0541024EA /* FullScreenSlideshowViewController.swift */; };
@@ -64,6 +66,8 @@
 		A9C0D396998779F1BAE5DB68470B2E2E /* ImageSlideshow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSlideshow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3134E581E4881ABF19E4C4B80902204 /* Pods-ImageSlideshow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageSlideshow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7AC177D1BBAAF8200F61B32 /* icon-slide-active-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-slide-active-white.png"; sourceTree = "<group>"; };
+		C7AC177F1BBAB06000F61B32 /* icon-slide-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-slide-white.png"; sourceTree = "<group>"; };
 		D54739FACE2AC78F5E5660A42F502B93 /* ImageSlideshow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageSlideshow.xcconfig; sourceTree = "<group>"; };
 		DA682E0CF4729A0595FA778AC13E27E3 /* Pods-ImageSlideshow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageSlideshow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E77B6889F3C1046FA296AD5FC7752A8F /* cancel30.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = cancel30.png; sourceTree = "<group>"; };
@@ -249,6 +253,8 @@
 		EDF43175446911F48F486BF8F0508C20 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C7AC177F1BBAB06000F61B32 /* icon-slide-white.png */,
+				C7AC177D1BBAAF8200F61B32 /* icon-slide-active-white.png */,
 				E77B6889F3C1046FA296AD5FC7752A8F /* cancel30.png */,
 			);
 			path = Assets;
@@ -363,6 +369,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AC17801BBAB06000F61B32 /* icon-slide-white.png in Resources */,
+				C7AC177E1BBAAF8200F61B32 /* icon-slide-active-white.png in Resources */,
 				8E02AD04C35514F30C837D04348A75F1 /* cancel30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
